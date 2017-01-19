@@ -1,4 +1,4 @@
-FILENAME="data/djypzi_2017-01-19/measurements_18:02"
+FILENAME="data/djypzi_2017-01-19/measurements_18:52"
 perl scripts/csv_quicksort_extractor2.pl < "$FILENAME.txt" > "${FILENAME}_wide.csv"
 echo "
   set terminal png size 600,400 
